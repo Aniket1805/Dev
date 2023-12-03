@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Aniket1805_Dev_1701591659845-pr-trigger-input-set
+  identifier: Build_Aniket1805_Dev_1701591659845prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Aniket1805_Dev_1701591659845
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
