@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Aniket1805_Dev_1701591659845-push-trigger-input-set
+  identifier: Build_Aniket1805_Dev_1701591659845pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Aniket1805_Dev_1701591659845
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
